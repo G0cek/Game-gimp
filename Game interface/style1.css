@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(FjjEHIMWIAEFLOo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+}
+
+ul{ 
+    padding-left:30px ;
+    color: white;
+    height: 98vh;
+    
+}
+
+ul > .play{
+    color: red;
+}
+
+ul >::marker{
+    color: white;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.play {
+    color: red;
+}
+
+nav, .buttons{
+    margin: 5px;
+    border: 3px solid white;
+}
+
+p{
+    color: white;
+}
+
+.credits{
+    display: flex;
+}
+
+.v-points{
+    display: flex;
+    margin-right: 50px;
+    font-size: 28px ;
+}
+
+.radianite{
+    display: flex;
+    margin-right: 50px;
+    font-size: 28px ;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 85vw;
+}
+
+
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.settings > img{
+    border: 5px solid pink;
+}
